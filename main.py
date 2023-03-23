@@ -1,3 +1,10 @@
+"""
+Lab 6: Software Engineering
+Coder: Helen Ho
+Description: Design a simple encoder/decoder program in this lab. The program will provide a looping
+menu that invites the user to choose from a menu with encoder and decoder options.
+"""
+
 def encodePassword(number):
     encodedPassword = ""
 
