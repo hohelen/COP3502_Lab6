@@ -5,6 +5,7 @@ Description: Design a simple encoder/decoder program in this lab. The program wi
 menu that invites the user to choose from a menu with encoder and decoder options.
 """
 
+# Each digit of the 8-digit password is shifted up by 3 numbers
 def encodePassword(number):
     encodedPassword = ""
 
@@ -17,6 +18,7 @@ def encodePassword(number):
 
     return encodedPassword
 
+# Shows the menu options for the user
 def displayMenu():
     print("Menu")
     print("-------------")
@@ -37,6 +39,7 @@ def main():
             print("Your password has been encoded and stored!")
             print()
 
+        # The password decoder takes in the encoded password and returns the original password
         elif menuOption == 2:
             print(f"The encoded password is {encodedPassword}, and the original password is {password}")
             print()
